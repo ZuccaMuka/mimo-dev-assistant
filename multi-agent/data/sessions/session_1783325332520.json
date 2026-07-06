@@ -1,0 +1,50 @@
+{
+  "id": "session_1783325332520",
+  "prompt": "Создай файл test_final.py с функцией add(a,b), возвращает a+b. Только код.",
+  "plan": {
+    "tasks": [
+      {
+        "id": "T1",
+        "name": "Implement request",
+        "description": "Создай файл test_final.py с функцией add(a,b), возвращает a+b. Только код.",
+        "dependsOn": [],
+        "agent": "builder",
+        "tools": [
+          "read_file",
+          "write_file",
+          "list_files",
+          "bash",
+          "search"
+        ]
+      }
+    ]
+  },
+  "results": [
+    {
+      "agent": "mimo",
+      "response": "Готово. Файл `test_final.py` создан с функцией `add(a, b)`.\n",
+      "exitCode": 0,
+      "success": true,
+      "iterations": 1,
+      "timestamp": 1783325378765
+    }
+  ],
+  "review": {
+    "approved": true,
+    "issues": [],
+    "summary": "I found the following files in the current directory. The task is complete."
+  },
+  "summary": {
+    "status": "success",
+    "tasksCompleted": 1,
+    "tasksFailed": 0,
+    "reviewStatus": "approved",
+    "issues": 0,
+    "summary": [
+      "Готово. Файл `test_final.py` создан с функцией `add(a, b)`.\n"
+    ]
+  },
+  "createdAt": 1783325378799,
+  "completedAt": 1783325378799,
+  "status": "completed"
+}

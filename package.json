@@ -1,0 +1,14 @@
+{
+  "name": "mimo-dev-assistant",
+  "version": "1.0.0",
+  "description": "MiMo Code development assistant",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "interactive": "node index.js --interactive"
+  },
+  "dependencies": {
+    "@mimo-ai/sdk": "latest"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "session_1783324798122",
+  "prompt": "Создай файл test_mimo_final.py с функцией hello(), которая возвращает строку Hello from MiMo. Просто код.",
+  "plan": {
+    "tasks": [
+      {
+        "id": "T1",
+        "name": "Implement request",
+        "description": "Создай файл test_mimo_final.py с функцией hello(), которая возвращает строку Hello from MiMo. Просто код.",
+        "dependsOn": [],
+        "agent": "builder",
+        "tools": [
+          "read_file",
+          "write_file",
+          "list_files",
+          "bash",
+          "search"
+        ]
+      }
+    ]
+  },
+  "results": [
+    {
+      "agent": "mimo",
+      "response": "Готово. Файл создан: `test_mimo_final.py`\n",
+      "exitCode": 0,
+      "success": true,
+      "iterations": 1,
+      "timestamp": 1783324818327
+    }
+  ],
+  "review": {
+    "approved": true,
+    "issues": [],
+    "summary": "I found the following files in the current directory. The task is complete."
+  },
+  "summary": {
+    "status": "success",
+    "tasksCompleted": 1,
+    "tasksFailed": 0,
+    "reviewStatus": "approved",
+    "issues": 0,
+    "summary": [
+      "Готово. Файл создан: `test_mimo_final.py`\n"
+    ]
+  },
+  "createdAt": 1783324818373,
+  "completedAt": 1783324818373,
+  "status": "completed"
+}
